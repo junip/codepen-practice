@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.scss';
-import Sample from './Sample'
+import Threedot from './Threedot/ThreeDot'
 
 function App() {
   return (
     <div className="App">
-       <Sample/>
+      <Threedot/>
     </div>
   );
 }

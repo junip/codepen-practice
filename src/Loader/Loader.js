@@ -1,12 +1,12 @@
 import React from 'react';
 
-const Sample = () =>{
+const Loader = () =>{
   return(
     <div className="loader-div">
       <div className="loader">
-        
+
       </div>
     </div>
   )
 }
- export default Sample
+ export default Loader

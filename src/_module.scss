@@ -1,32 +1,8 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
+@import './Loader/loader';
+@import './Loader/colorful';
 
-.loader-div {
-  height: 100vh;                                                                                                                                                           
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
-  .loader {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: 5px solid rgb(215, 215, 224);
-    border-top: 5px solid #35aa2a;
-    border-bottom: 5px solid #5b4897;
-    border-left: 5px solid #04d7ee;
-    border-right: 5px solid #e075db;
-    animation: spin 0.5s linear infinite;
-  }
-
-  @keyframes spin {
-    0% {
-      transform: rotate(0deg)
-    }
-    100% {
-      transform: rotate(360deg)
-    }
-  }  
-}
-
+@import './Threedot/threedot';
