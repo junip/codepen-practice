@@ -1,8 +1,8 @@
 import React from 'react';
 
-const DotFalling = () => {
+const Dotjump = () => {
   return(
-    <div className="dot-falling">
+    <div className="dot-jump">
       <span></span>
       <span></span>
       <span></span>
@@ -10,4 +10,4 @@ const DotFalling = () => {
   )
 }
 
-export default DotFalling
+export default Dotjump
